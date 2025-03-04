@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<circulars>
+  <circular>
+    <id>1</id>
+    <title>Annual Examination Schedule</title>
+    <date>March 15, 2025</date>
+    <description>The annual examinations for classes I to VIII will be conducted from March 1 to March 15, 2026. The detailed schedule has been uploaded to the school website.</description>
+    <attachment>
+      <name>exam_schedule_2026.pdf</name>
+      <url>#</url>
+    </attachment>
+  </circular>
+  <circular>
+    <id>2</id>
+    <title>Parent-Teacher Meeting</title>
+    <date>February 28, 2025</date>
+    <description>A parent-teacher meeting for all classes will be held on March 10, 2025, from 9:00 AM to 12:00 PM. Parents are requested to attend without fail.</description>
+  </circular>
+  <circular>
+    <id>3</id>
+    <title>Fee Payment Reminder</title>
+    <date>February 15, 2025</date>
+    <description>Parents are reminded to clear all pending fees for the academic year 2024-2025 by February 20, 2025. Students with outstanding fees will not be allowed to appear for the annual examinations.</description>
+  </circular>
+  <circular>
+    <id>4</id>
+    <title>Annual Sports Day</title>
+    <date>February 10, 2025</date>
+    <description>The Annual Sports Day will be held on February 25, 2025, at the school grounds. All students are required to participate in the march past. Parents are cordially invited to attend the event.</description>
+    <attachment>
+      <name>sports_day_schedule.pdf</name>
+      <url>#</url>
+    </attachment>
+  </circular>
+  <circular>
+    <id>5</id>
+    <title>Republic Day Celebration</title>
+    <date>January 25, 2025</date>
+    <description>The school will celebrate Republic Day on January 26, 2025. Students are required to come in proper school uniform. The program will start at 8:00 AM.</description>
+  </circular>
+  <circular>
+    <id>6</id>
+    <title>New Academic Session 2025-2026</title>
+    <date>January 15, 2025</date>
+    <description>The new academic session 2025-2026 will commence on April 1, 2025. The book list and stationery requirements have been uploaded to the school website.</description>
+    <attachment>
+      <name>book_list_2025_26.pdf</name>
+      <url>#</url>
+    </attachment>
+  </circular>
+</circulars>

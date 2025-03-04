@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gallery>
+  <photo>
+    <id>1</id>
+    <url>https://images.unsplash.com/photo-1564419320461-6870880221ad?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80</url>
+    <caption>Flag hoisting ceremony</caption>
+  </photo>
+  <photo>
+    <id>2</id>
+    <url>https://images.unsplash.com/photo-1532375810709-75b1da00537c?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80</url>
+    <caption>Students performing patriotic dance</caption>
+  </photo>
+  <photo>
+    <id>3</id>
+    <url>https://images.unsplash.com/photo-1569937756447-1d44f657dc69?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80</url>
+    <caption>March past by students</caption>
+  </photo>
+  <photo>
+    <id>4</id>
+    <url>https://images.unsplash.com/photo-1604871000636-074fa5117945?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80</url>
+    <caption>Cultural tableau presentation</caption>
+  </photo>
+</gallery>

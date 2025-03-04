@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+  <event>
+    <id>1</id>
+    <title>Graduation Day Celebrations</title>
+    <description>Students celebrating their academic achievements during the annual graduation ceremony.</description>
+    <date>March 15, 2025</date>
+    <image>event1.jpg</image>
+    <gallery>
+      <photos>
+        <photo>
+          <url>https://images.unsplash.com/photo-1523050854058-8df90110c9f1</url>
+          <caption>Students receiving their certificates</caption>
+        </photo>
+        <photo>
+          <url>https://images.unsplash.com/photo-1523240795612-9a054b0db644</url>
+          <caption>Principal addressing the gathering</caption>
+        </photo>
+        <photo>
+          <url>https://images.unsplash.com/photo-1541339907198-e08756dedf3f</url>
+          <caption>Group photo of graduating class</caption>
+        </photo>
+        <photo>
+          <url>https://images.unsplash.com/photo-1560523159-4a9692d222f9</url>
+          <caption>Cultural performance by students</caption>
+        </photo>
+      </photos>
+      <videos>
+        <video>
+          <url>https://www.youtube.com/embed/dQw4w9WgXcQ</url>
+          <title>Graduation Ceremony Highlights</title>
+          <description>Watch the highlights of our graduation ceremony including speeches and performances.</description>
+          <thumbnail>https://images.unsplash.com/photo-1523050854058-8df90110c9f1</thumbnail>
+        </video>
+      </videos>
+    </gallery>
+  </event>
+  <event>
+    <id>2</id>
+    <title>Wonder Kids Day Celebrations</title>
+    <description>A fun-filled day celebrating the creativity and talents of our youngest students.</description>
+    <date>February 20, 2025</date>
+    <image>event2.jpg</image>
+    <gallery>
+      <photos>
+        <photo>
+          <url>https://images.unsplash.com/photo-1588075592446-265bad1d6d8c</url>
+          <caption>Kids enjoying the activities</caption>
+        </photo>
+        <photo>
+          <url>https://images.unsplash.com/photo-1540479859555-17af45c78602</url>
+          <caption>Art and craft display</caption>
+        </photo>
+        <photo>
+          <url>https://images.unsplash.com/photo-1472162072942-cd5147eb3902</url>
+          <caption>Dance performance by kindergarten students</caption>
+        </photo>
+        <photo>
+          <url>https://images.unsplash.com/photo-1516627145497-ae6968895b74</url>
+          <caption>Parents and teachers at the event</caption>
+        </photo>
+      </photos>
+      <videos>
+        <video>
+          <url>https://www.youtube.com/embed/dQw4w9WgXcQ</url>
+          <title>Wonder Kids Day Performance</title>
+          <description>Watch our kindergarten students showcase their talents through various performances.</description>
+          <thumbnail>https://images.unsplash.com/photo-1588075592446-265bad1d6d8c</thumbnail>
+        </video>
+      </videos>
+    </gallery>
+  </event>
+  <event>
+    <id>3</id>
+    <title>Republic Day Celebration</title>
+    <description>Students and staff commemorating the Republic Day with patriotic performances.</description>
+    <date>January 26, 2025</date>
+    <image>event3.jpg</image>
+    <gallery>
+      <photos>
+        <photo>
+          <url>https://images.unsplash.com/photo-1564419320461-6870880221ad</url>
+          <caption>Flag hoisting ceremony</caption>
+        </photo>
+        <photo>
+          <url>https://images.unsplash.com/photo-1532375810709-75b1da00537c</url>
+          <caption>Students performing patriotic dance</caption>
+        </photo>
+        <photo>
+          <url>https://images.unsplash.com/photo-1569937756447-1d44f657dc69</url>
+          <caption>March past by students</caption>
+        </photo>
+        <photo>
+          <url>https://images.unsplash.com/photo-1604871000636-074fa5117945</url>
+          <caption>Cultural tableau presentation</caption>
+        </photo>
+      </photos>
+      <videos>
+        <video>
+          <url>https://www.youtube.com/embed/dQw4w9WgXcQ</url>
+          <title>Republic Day Celebrations</title>
+          <description>Watch the highlights of our Republic Day celebrations including flag hoisting and cultural performances.</description>
+          <thumbnail>https://images.unsplash.com/photo-1564419320461-6870880221ad</thumbnail>
+        </video>
+      </videos>
+    </gallery>
+  </event>
+</events>

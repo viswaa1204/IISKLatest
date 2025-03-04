@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gallery>
+  <photo>
+    <id>1</id>
+    <url>https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80</url>
+    <caption>Students receiving their certificates</caption>
+  </photo>
+  <photo>
+    <id>2</id>
+    <url>https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80</url>
+    <caption>Principal addressing the gathering</caption>
+  </photo>
+  <photo>
+    <id>3</id>
+    <url>https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80</url>
+    <caption>Group photo of graduating class</caption>
+  </photo>
+  <photo>
+    <id>4</id>
+    <url>https://images.unsplash.com/photo-1560523159-4a9692d222f9?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80</url>
+    <caption>Cultural performance by students</caption>
+  </photo>
+</gallery>

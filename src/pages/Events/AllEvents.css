@@ -1,0 +1,124 @@
+.events-intro {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+  text-align: center;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.events-filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid var(--light-blue);
+  padding-bottom: 1rem;
+}
+
+.events-filter h3 {
+  font-size: 1.5rem;
+  color: var(--navy-blue);
+  margin: 0;
+}
+
+.all-events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.event-card {
+  background-color: var(--white);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.event-image {
+  height: 200px;
+  overflow: hidden;
+}
+
+.event-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+
+.event-card:hover .event-image img {
+  transform: scale(1.05);
+}
+
+.event-content {
+  padding: 1.5rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.event-title {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: var(--navy-blue);
+}
+
+.event-title a {
+  color: var(--navy-blue);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.event-title a:hover {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.event-date {
+  font-size: 0.9rem;
+  color: var(--blue);
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.event-description {
+  font-size: 0.95rem;
+  color: var(--dark-gray);
+  flex-grow: 1;
+}
+
+.loading-indicator {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.1rem;
+  color: var(--blue);
+  background-color: var(--white);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.error-message {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.1rem;
+  color: #d9534f;
+  background-color: #f8d7da;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .all-events-grid {
+    grid-template-columns: 1fr;
+  }
+}

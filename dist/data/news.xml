@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<news>
+  <item>
+    <id>1</id>
+    <title>Annual Sports Day Announced</title>
+    <description>The annual sports day will be held on April 10, 2025. All students are encouraged to participate.</description>
+    <date>January 15, 2025</date>
+  </item>
+  <item>
+    <id>2</id>
+    <title>Science Exhibition Winners</title>
+    <description>Congratulations to all the winners of the Inter-School Science Exhibition held last week.</description>
+    <date>February 5, 2025</date>
+  </item>
+  <item>
+    <id>3</id>
+    <title>Parent-Teacher Meeting</title>
+    <description>The next parent-teacher meeting is scheduled for March 1, 2025. All parents are requested to attend.</description>
+    <date>February 20, 2025</date>
+  </item>
+  <item>
+    <id>4</id>
+    <title>New Library Books Arrived</title>
+    <description>Our school library has been enriched with 500 new books covering various subjects and interests.</description>
+    <date>January 30, 2025</date>
+  </item>
+</news>

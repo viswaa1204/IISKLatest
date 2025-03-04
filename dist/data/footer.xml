@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<footer>
+  <quickLinks>
+    <link>
+      <title>Home</title>
+      <url>/</url>
+    </link>
+    <link>
+      <title>About Us</title>
+      <url>/about/school</url>
+    </link>
+    <link>
+      <title>Admission</title>
+      <url>/admission</url>
+    </link>
+    <link>
+      <title>Academics</title>
+      <url>/academics/curriculum</url>
+    </link>
+    <link>
+      <title>Circulars</title>
+      <url>/circulars</url>
+    </link>
+    <link>
+      <title>Contact Us</title>
+      <url>/contact</url>
+    </link>
+  </quickLinks>
+  <aboutLinks>
+    <link>
+      <title>Vision & Mission</title>
+      <url>/about/vision-mission</url>
+    </link>
+    <link>
+      <title>Affiliation & License</title>
+      <url>/about/affiliation</url>
+    </link>
+    <link>
+      <title>Patron</title>
+      <url>/about/patron</url>
+    </link>
+    <link>
+      <title>Higher Board</title>
+      <url>/about/higher-board</url>
+    </link>
+    <link>
+      <title>Management Committee</title>
+      <url>/about/management-committee</url>
+    </link>
+    <link>
+      <title>Principal Message</title>
+      <url>/about/principal-message</url>
+    </link>
+  </aboutLinks>
+  <academicsLinks>
+    <link>
+      <title>School Calendar</title>
+      <url>/academics/school-calendar</url>
+    </link>
+    <link>
+      <title>Curriculum</title>
+      <url>/academics/curriculum</url>
+    </link>
+    <link>
+      <title>School Uniform</title>
+      <url>/academics/school-uniform</url>
+    </link>
+    <link>
+      <title>Worksheets</title>
+      <url>/academics/worksheets</url>
+    </link>
+    <link>
+      <title>Vacations</title>
+      <url>/academics/vacations</url>
+    </link>
+    <link>
+      <title>School Timings</title>
+      <url>/academics/school-timings</url>
+    </link>
+  </academicsLinks>
+  <contactInfo>
+    <address>P.O. Box: 207 – Al –khafji 31971</address>
+    <country>Kingdom of Saudi Arabia</country>
+    <telephone>013 7662515, 013 7662511</telephone>
+    <email>principaliisk@gmail.com</email>
+  </contactInfo>
+</footer>

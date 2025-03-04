@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gallery>
+  <photo>
+    <id>1</id>
+    <url>https://images.unsplash.com/photo-1588075592446-265bad1d6d8c?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80</url>
+    <caption>Kids enjoying the activities</caption>
+  </photo>
+  <photo>
+    <id>2</id>
+    <url>https://images.unsplash.com/photo-1540479859555-17af45c78602?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80</url>
+    <caption>Art and craft display</caption>
+  </photo>
+  <photo>
+    <id>3</id>
+    <url>https://images.unsplash.com/photo-1472162072942-cd5147eb3902?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80</url>
+    <caption>Dance performance by kindergarten students</caption>
+  </photo>
+  <photo>
+    <id>4</id>
+    <url>https://images.unsplash.com/photo-1516627145497-ae6968895b74?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80</url>
+    <caption>Parents and teachers at the event</caption>
+  </photo>
+</gallery>

@@ -1,0 +1,611 @@
+/* Common styles for all pages */
+.page-content {
+  padding: 2rem 0;
+  min-height: calc(100vh - 300px);
+}
+
+.page-title {
+  font-size: 2rem;
+  color: var(--navy-blue);
+  margin-bottom: 2rem;
+  text-align: center;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.page-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 3px;
+  background-color: var(--green);
+}
+
+.page-section {
+  margin-bottom: 2.5rem;
+}
+
+.section-subtitle {
+  font-size: 1.5rem;
+  color: var(--blue);
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--light-blue);
+}
+
+/* About School Page */
+.vision-box, .mission-box, .affiliation-box, .patron-box {
+  background-color: var(--light-blue);
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid var(--navy-blue);
+  margin-bottom: 1.5rem;
+}
+
+.values-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.values-list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.values-list li::before {
+  content: '✓';
+  color: var(--green);
+  position: absolute;
+  left: 0;
+  top: 0.5rem;
+}
+
+/* Higher Board Page */
+.board-intro {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.board-members {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.board-member-card {
+  background-color: var(--white);
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-top: 4px solid var(--navy-blue);
+}
+
+.board-member-card h3 {
+  margin-top: 0;
+  color: var(--navy-blue);
+}
+
+.member-title {
+  color: var(--blue);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.member-ref {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.responsibilities-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.responsibilities-list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.responsibilities-list li::before {
+  content: '•';
+  color: var(--blue);
+  position: absolute;
+  left: 0;
+  top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+/* Management Committee Page */
+.responsibilities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.responsibility-item {
+  background-color: var(--light-blue);
+  padding: 1.5rem;
+  border-radius: 8px;
+  height: 100%;
+}
+
+.responsibility-item h3 {
+  color: var(--navy-blue);
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+/* Principal Message Page */
+.principal-message {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.principal-image {
+  flex: 0 0 250px;
+  text-align: center;
+}
+
+.principal-image img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.principal-image h3 {
+  margin: 0;
+  color: var(--navy-blue);
+}
+
+.principal-image p {
+  color: var(--blue);
+  margin-top: 0.25rem;
+}
+
+.message-content {
+  flex: 1;
+}
+
+.message-content p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+/* Admission Page */
+.admission-table, .fee-table, .calendar-table, .vacation-table, .holiday-table, .timings-table, .schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+}
+
+.admission-table td, .fee-table td, .calendar-table td, .vacation-table td, .holiday-table td, .timings-table td, .schedule-table td,
+.admission-table th, .fee-table th, .calendar-table th, .vacation-table th, .holiday-table th, .timings-table th, .schedule-table th {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+}
+
+.admission-table th, .fee-table th, .calendar-table th, .vacation-table th, .holiday-table th, .timings-table th, .schedule-table th {
+  background-color: var(--navy-blue);
+  color: var(--white);
+  text-align: left;
+}
+
+.admission-table tr:nth-child(even), .fee-table tr:nth-child(even), .calendar-table tr:nth-child(even), .vacation-table tr:nth-child(even), .holiday-table tr:nth-child(even), .timings-table tr:nth-child(even), .schedule-table tr:nth-child(even) {
+  background-color: var(--light-blue);
+}
+
+.note {
+  font-style: italic;
+  color: #666;
+}
+
+.highlight {
+  background-color: #ffffcc;
+  padding: 0.5rem;
+  border-left: 3px solid #ffcc00;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.document-list, .admission-test-list, .fee-list, .guidelines-list, .assessment-list, .uniform-list, .benefits-list, .usage-list {
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.document-list li, .admission-test-list li, .fee-list li, .guidelines-list li, .assessment-list li, .uniform-list li, .benefits-list li, .usage-list li {
+  margin-bottom: 0.5rem;
+}
+
+.important-note {
+  color: #d9534f;
+  font-weight: 500;
+  padding: 0.5rem;
+  border: 1px solid #d9534f;
+  border-radius: 4px;
+  margin-top: 1.5rem;
+}
+
+/* Prospectus Page */
+.prospectus-box {
+  background-color: var(--light-blue);
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.download-button {
+  margin-top: 1.5rem;
+}
+
+.highlights-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.highlight-item {
+  background-color: var(--white);
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  height: 100%;
+}
+
+.highlight-item h3 {
+  color: var(--navy-blue);
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+/* Fee Structure Page */
+.fee-table.full-width {
+  width: 100%;
+}
+
+/* School Calendar Page */
+.calendar-box {
+  background-color: var(--light-blue);
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Curriculum Page */
+.curriculum-list, .language-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.curriculum-list li, .language-list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.curriculum-list li::before, .language-list li::before {
+  content: '•';
+  color: var(--blue);
+  position: absolute;
+  left: 0;
+  top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.houses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.house {
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  color: var(--white);
+}
+
+.house h3 {
+  margin-top: 0;
+  color: var(--white);
+}
+
+.house p {
+  margin-bottom: 0;
+}
+
+.ruby {
+  background-color: #e74c3c;
+}
+
+.sapphire {
+  background-color: #3498db;
+}
+
+.emerald {
+  background-color: #2ecc71;
+}
+
+.topaz {
+  background-color: #f1c40f;
+}
+
+/* School Uniform Page */
+.uniform-intro {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: var(--light-blue);
+  border-radius: 8px;
+}
+
+.additional-notes {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  border-left: 3px solid var(--blue);
+}
+
+/* Worksheets Page */
+.worksheet-categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.category-card {
+  background-color: var(--white);
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  height: 100%;
+}
+
+.category-card h3 {
+  color: var(--navy-blue);
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.category-card ul {
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.category-card li {
+  margin-bottom: 0.5rem;
+}
+
+.btn-sm {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  background-color: var(--blue);
+  color: var(--white);
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-sm:hover {
+  background-color: var(--navy-blue);
+  text-decoration: none;
+  color: var(--white);
+}
+
+/* Vacations Page */
+.vacation-table, .holiday-table {
+  margin-bottom: 2rem;
+}
+
+/* School Timings Page */
+.timings-box {
+  background-color: var(--light-blue);
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.schedule-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.schedule-box {
+  background-color: var(--white);
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.schedule-box h3 {
+  color: var(--navy-blue);
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Circulars Page */
+.circulars-list {
+  margin-bottom: 2rem;
+}
+
+.circular-item {
+  display: flex;
+  margin-bottom: 1.5rem;
+  background-color: var(--white);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.circular-date {
+  flex: 0 0 120px;
+  background-color: var(--navy-blue);
+  color: var(--white);
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 500;
+}
+
+.circular-content {
+  flex: 1;
+  padding: 1.5rem;
+}
+
+.circular-content h3 {
+  margin-top: 0;
+  color: var(--navy-blue);
+  margin-bottom: 0.5rem;
+}
+
+.circular-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: var(--blue);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.circular-link:hover {
+  text-decoration: underline;
+}
+
+.archive-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.archive-link {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--light-blue);
+  color: var(--navy-blue);
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.archive-link:hover {
+  background-color: var(--blue);
+  color: var(--white);
+  text-decoration: none;
+}
+
+/* Contact Page */
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.contact-info {
+  background-color: var(--light-blue);
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.contact-section {
+  margin-bottom: 1.5rem;
+}
+
+.contact-section h2 {
+  margin-top: 0;
+  font-size: 1.3rem;
+}
+
+.contact-section p {
+  margin-bottom: 0.5rem;
+}
+
+.contact-form-container {
+  background-color: var(--white);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.contact-form {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input, .form-group textarea {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.form-group input:focus, .form-group textarea:focus {
+  outline: none;
+  border-color: var(--blue);
+  box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.2);
+}
+
+.map-container {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 992px) {
+  .principal-message {
+    flex-direction: column;
+  }
+  
+  .principal-image {
+    margin-bottom: 2rem;
+    flex: 0 0 auto;
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .circular-item {
+    flex-direction: column;
+  }
+  
+  .circular-date {
+    flex: 0 0 auto;
+    padding: 0.75rem;
+  }
+}

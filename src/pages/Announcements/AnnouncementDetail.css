@@ -1,0 +1,118 @@
+.announcement-details {
+  background-color: var(--white);
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.announcement-date {
+  font-size: 1rem;
+  color: var(--blue);
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.announcement-content {
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.announcement-content h3 {
+  font-size: 1.3rem;
+  color: var(--navy-blue);
+  margin: 1.5rem 0 1rem;
+}
+
+.announcement-content ul, .announcement-content ol {
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.announcement-content li {
+  margin-bottom: 0.5rem;
+}
+
+.announcement-content p {
+  margin-bottom: 1rem;
+}
+
+.announcement-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+}
+
+.announcement-table th, .announcement-table td {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+}
+
+.announcement-table th {
+  background-color: var(--navy-blue);
+  color: var(--white);
+  text-align: left;
+}
+
+.announcement-table tr:nth-child(even) {
+  background-color: var(--light-blue);
+}
+
+.announcement-attachments {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #eee;
+}
+
+.announcement-attachments h3 {
+  font-size: 1.2rem;
+  color: var(--navy-blue);
+  margin-bottom: 1rem;
+}
+
+.attachments-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.attachments-list li {
+  margin-bottom: 0.5rem;
+}
+
+.attachments-list a {
+  display: inline-block;
+  color: var(--blue);
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  background-color: var(--light-blue);
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.attachments-list a:hover {
+  background-color: #d1e6ff;
+  text-decoration: none;
+}
+
+.announcement-navigation {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.loading-indicator {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.1rem;
+  color: var(--blue);
+}
+
+.error-message {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.1rem;
+  color: #d9534f;
+  background-color: #f8d7da;
+  border-radius: 8px;
+}
